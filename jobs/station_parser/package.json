@@ -1,0 +1,9 @@
+{
+  "name": "station-parser",
+  "version": "0.0.1",
+  "description": "parse a csv of input stations",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "latest"
+  }
+}
