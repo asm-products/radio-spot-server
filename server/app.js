@@ -8,7 +8,7 @@ var app = express();
 app.get('/api/v1/stations/:lat/:lon', function(req, res) {
     var lat = Number(req.params.lat);
     var lon = Number(req.params.lon);
-
+    console.log("CALL TO /api/v1/stations/" + lat + '/' + lon);
     if (lat && lon) {
         getStations(res, lat, lon);
     } else {
