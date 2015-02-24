@@ -1,0 +1,10 @@
+{
+  "name": "radio-spot-server",
+  "version": "0.0.1",
+  "description": "server for radio spot",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "mongodb": "latest"
+  }
+}
